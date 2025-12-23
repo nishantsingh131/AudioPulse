@@ -1,6 +1,6 @@
 # 🎧 PulseAudio Audio Player for Embedded Linux (Yocto)
 
-## 📌 Overview
+##  Overview
 
 This project is a **custom audio playback application written in C using PulseAudio APIs**.  
 It is designed for **Embedded Linux systems**, especially **Yocto Project–based images** such as `core-image-sato`, and targets ARM boards like **BeagleBone Black**.
@@ -9,7 +9,7 @@ The application demonstrates how an embedded user-space program plays audio thro
 
 ---
 
-## 🎯 Purpose of This Project
+##  Purpose of This Project
 
 - Learn **PulseAudio audio flow**
 - Understand **ALSA vs PulseAudio**
@@ -19,7 +19,7 @@ The application demonstrates how an embedded user-space program plays audio thro
 
 ---
 
-## 🧠 Audio Architecture Flow
+##  Audio Architecture Flow
 
 ```
 Application (PulseAudio API)
@@ -37,7 +37,7 @@ Speaker / Headphone
 
 ---
 
-## ✨ Features Automatically Enabled
+##  Features Automatically Enabled
 
 - Audio routing
 - Software mixing (multiple apps)
@@ -75,7 +75,7 @@ DEPENDS = "pulseaudio alsa-lib"
 
 ---
 
-## 🔍 Understanding "default" Audio Device
+##  Understanding "default" Audio Device
 
 ```
 "default"
